@@ -1,0 +1,17 @@
+.following {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.followingImg {
+    margin-bottom: 5px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.followingName {
+    text-align: center;
+}

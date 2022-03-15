@@ -1,0 +1,42 @@
+.rightbar {
+    flex: 3.5;
+}
+
+.rightbarWrapper {
+    margin: 20px;
+}
+
+.rightbarInfoItem {
+   margin-bottom: 10px;
+}
+
+
+.rightbarInfoKey {
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+}
+
+.rightbarInfoValue {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rightbarFollowBtn {
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

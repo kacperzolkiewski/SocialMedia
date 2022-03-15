@@ -1,0 +1,32 @@
+.rightbarFriendItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rightbarFriendContainer {
+    position: relative;
+}
+
+.rightbarFriendImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbarFriendBadge {
+    width: 12px;
+    height: 12px;
+    background-color: limegreen;
+    border: solid 2px white;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-radius: 50%;
+}
+
+.rightbarFriendText {
+    margin-left: 10px;
+    font-weight: bold;
+}

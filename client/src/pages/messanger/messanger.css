@@ -1,0 +1,75 @@
+.messanger {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.messageMenu {
+    flex: 3.5;
+}
+
+.messageChat {
+    flex: 5.5;
+}
+
+.messageOnline {
+    flex: 3;
+}
+
+.messageChatWrapper, .messageMenuWrapper, .messageOnlineWrapper {
+    padding: 10px;
+    height: 100%;
+}
+
+.messageMenuInput {
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.messageMenuInput:focus {
+    outline: none;
+}
+
+.messageMenuHr {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.messageChatBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.messageChatBoxTop {
+    overflow-y: scroll;
+}
+
+.messageChatBoxBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.messageChatText {
+    width: 80%;
+    padding: 10px;
+    height: 100px;
+}
+
+.messageChatText:focus {
+    outline: none;
+}
+
+.messageChatBtn {
+    border: none;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(4, 155, 16);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
